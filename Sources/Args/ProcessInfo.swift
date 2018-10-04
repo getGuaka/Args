@@ -35,7 +35,7 @@ class DummyProcessInfo: ProcessInfoType {
 
 class ProcessInfo {
 
-    static var internalProcessInfo: ProcessInfoType = Foundation.ProcessInfo()
+    static var internalProcessInfo: ProcessInfoType = Foundation.ProcessInfo.processInfo
 
     static var arguments: [String] {
         return internalProcessInfo.arguments
